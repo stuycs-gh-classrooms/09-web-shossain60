@@ -5,10 +5,6 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, p {
-  margin: 10px 0;
-}
-
 
 nav {
   background-color: #d2b48c; 
@@ -36,12 +32,15 @@ nav a {
 
 h1, h2, h3 {
   color: #8b4513; 
+  text-align: center;
 }
 
 
 img {
   border: 2px solid #8b4513; 
   border-radius: 5px;
+  display: block;
+  margin: 0 auto;
 }
 
 
@@ -63,6 +62,7 @@ ul {
 
 p {
   line-height: 1.5;
+  text-align: justify;
 }
 
 
