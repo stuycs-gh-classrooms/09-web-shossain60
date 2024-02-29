@@ -3,8 +3,6 @@ body {
     margin: 50px;
     width: 75%px;
     height: 75%px;
-border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 .navbar {
@@ -12,11 +10,13 @@ border-top-left-radius: 10px;
     margin: 20px;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #E74C3C;
+border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .navbar li {
-    float: left;
+    float: center;
 }
 
 .navbar a {
