@@ -11,12 +11,13 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #E74C3C;
-border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .navbar li {
     float: left;
+    text-align: center;
 }
 
 .navbar a {
