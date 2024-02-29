@@ -4,10 +4,7 @@ body {
     width: 75%px;
     height: 75%px;
     text-align: center;
-    background-image: url("chaseatlantic2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.6;
+
 }
 
 .navbar {
@@ -49,5 +46,9 @@ ul {
     border: 3px solid #000000;
     font-size: 20px;
     font-weight: bold;
+    background-image: url("chaseatlantic2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
 }
     
