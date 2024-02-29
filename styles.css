@@ -50,9 +50,7 @@ ul {
     border: 3px solid #000000;
     font-size: 30px;
     font-weight: bold;
-    font-color: #FFFFFF;
-    background-color:  #FFFFFF
-    opacity: 0.9;
+    color: #FFFFFF;
 }
 
 .page2 {
