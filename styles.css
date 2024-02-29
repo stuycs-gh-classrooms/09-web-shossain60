@@ -6,7 +6,7 @@ body {
     text-align: center;
     background-image: url("chaseatlantic2.jpg");
     background-size: cover;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
 }
 
 .navbar {
