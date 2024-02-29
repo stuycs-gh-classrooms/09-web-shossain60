@@ -58,7 +58,7 @@ opacity: 0.7;
 .page2 {
     padding: 0;
     margin: 20px;
-font-size: 40px;
+font-size: 60px;
     font-weight: black;
  background-color: #E74C3C;
     border-bottom-left-radius: 10px;
@@ -69,3 +69,5 @@ h1 {
     font-family: Impact, sans-serif;
     font-size: 50px;
 background-image: url("phasesalbum.jpg");
+    border: 6px solid #E74C3C;
+    opacity: 0.8;
