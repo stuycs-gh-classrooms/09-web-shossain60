@@ -5,6 +5,8 @@ body {
     height: 75%px;
     text-align: center;
     background-image: url("chaseatlantic2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navbar {
