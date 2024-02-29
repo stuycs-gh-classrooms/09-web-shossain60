@@ -13,6 +13,7 @@ background-image: url("chaseatlantic2.jpg");
 
 .navbar {
     list-style-type: none;
+    font-family: Impact, sans-serif;
     margin: 20px;
     padding: 0;
     overflow: hidden;
