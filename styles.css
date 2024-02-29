@@ -16,7 +16,7 @@ border-top-left-radius: 3px;
 }
 
 .navbar li {
-    float: center;
+    float: left;
 }
 
 .navbar a {
