@@ -96,6 +96,6 @@ background-color: #000000;
     color: #E74C3C;
 }
 
-li {
-    margin-bottom: 10px;
+ul li {
+    margin-bottom: 20px;
 }
