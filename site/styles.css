@@ -24,6 +24,7 @@ border-top-left-radius: 10px;
 .navbar li {
     float: left;
     text-align: center;
+    margin: 1px;
 }
 
 .navbar a {
