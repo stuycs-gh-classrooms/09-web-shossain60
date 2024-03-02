@@ -41,7 +41,6 @@ border-top-left-radius: 10px;
 
 ul {
     text-align: justify;
-    margin-bottom: 10px;
 }
 
 .page1 {
@@ -98,5 +97,5 @@ background-color: #000000;
 }
 
 ul li {
-    margin-bottom: 20px;
+    margin: 10px;
 }
