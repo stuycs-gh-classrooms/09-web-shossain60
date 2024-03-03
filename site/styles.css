@@ -98,6 +98,9 @@ background-color: #000000;
     color: #E74C3C;
 }
 
-h3 {
+.page1 h3 {
     margin-bottom: 80px;
+    font-family: Impact, sans-serif;
+    font-soze: 40px;
+    color: #FFFFFF;
 }
