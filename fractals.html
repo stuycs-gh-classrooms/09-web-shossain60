@@ -23,7 +23,7 @@
     </p>
 
   <img src="sierpinskinew.png" width="30%">
-    <code>
+   <pre><code>
       def sierpinskinew(t, depth, size, scale_factor=1):
     if depth == 1:
         triangle(t, size)
@@ -42,7 +42,7 @@
         t.fd(size/2)
         t.lt(120)
         sierpinskinew(t, depth-1, size)
-    </code>
+    </code></pre> 
   
 
   <h2> Koch Curve </h2>
@@ -58,7 +58,7 @@
 
   <img src="kochnew.png" width="30%">
 
-    <code>
+   <pre><code>
       def draw_koch_curvenew():
     t = setup_turtle()
     depth = 4  
@@ -75,7 +75,7 @@
         
         koch_curve(t, depth, 300)
         t.right(120)  
-    </code>
+    </code></pre> 
   
 
 
@@ -96,7 +96,7 @@
 
   <img src="treenew.png" width="30%">
 
-    <code>
+    <pre><code>
       def treenew(t, depth, size, angle):
     if depth == 0:
         t.fd(size)
@@ -116,7 +116,7 @@
         
         t.lt(2 * new_angle)
         treenew(t, depth-1, size * 0.75, new_angle)  
-    </code>
+    </code></pre> 
 
   </html>
 
