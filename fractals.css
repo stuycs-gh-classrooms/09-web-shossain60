@@ -1,4 +1,22 @@
 .div1 {
   border: 10px;
-  background-color: lightblue;
+  background-color: BlanchedAlmond;
   text-align: center;
+
+}
+
+.div2 {
+  border: 10px;
+  background-color: BurlyWood;
+  text-align: center;
+
+  }
+
+
+
+.div3 {
+  border: 10px;
+  background-color: chocolate;
+  text-align: center;
+
+    }
