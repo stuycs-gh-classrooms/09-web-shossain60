@@ -23,6 +23,26 @@
     </p>
 
   <img src="sierpinskinew.png" width="30%">
+    <code>
+      def sierpinskinew(t, depth, size, scale_factor=1):
+    if depth == 1:
+        triangle(t, size)
+    else:
+        t.pencolor("red")
+        sierpinskinew(t, depth-1, size/2)
+        t.fd(size/2)
+        sierpinskinew(t, depth-1, size/2)
+        t.pencolor("blue")
+        t.bk(size/2)
+        t.lt(60)
+        t.fd(size/2)
+        t.rt(60)
+        sierpinskinew(t, depth-1, size/2)
+        t.rt(120)
+        t.fd(size/2)
+        t.lt(120)
+        sierpinskinew(t, depth-1, size)
+    </code>
   
 
   <h2> Koch Curve </h2>
@@ -37,6 +57,25 @@
     </p>
 
   <img src="kochnew.png" width="30%">
+
+    <code>
+      def draw_koch_curvenew():
+    t = setup_turtle()
+    depth = 4  
+    for i in range(3):
+        if i == 0:
+            t.color('turquoise')
+        elif i == 1:
+            t.color('darkviolet')
+        else:
+            t.color('chocolate')
+        
+
+        t.pensize(3 - (depth - 1))
+        
+        koch_curve(t, depth, 300)
+        t.right(120)  
+    </code>
   
 
 
@@ -56,6 +95,28 @@
     </p>
 
   <img src="treenew.png" width="30%">
+
+    <code>
+      def treenew(t, depth, size, angle):
+    if depth == 0:
+        t.fd(size)
+        t.bk(size)
+    else:
+        t.fd(size)
+
+        new_angle = angle + depth * 3
+
+        if depth > 3:
+            t.color("green")
+        elif depth > 1:
+            t.color("brown")
+
+        t.rt(new_angle)
+        treenew(t, depth-1, size * 0.75, new_angle)  
+        
+        t.lt(2 * new_angle)
+        treenew(t, depth-1, size * 0.75, new_angle)  
+    </code>
 
   </html>
 
