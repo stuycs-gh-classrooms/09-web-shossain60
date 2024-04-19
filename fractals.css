@@ -47,8 +47,16 @@ font-size: 30px;
 
 
 .div0 {
-
 text-align: center;
+  margin: 30px;
+     border: 10px inset #E74C3C;
+  border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-family: Papyrus, Fantasy;
+font-size: 60px;
+  background-color: #f7e7ce;
 
 
 }
