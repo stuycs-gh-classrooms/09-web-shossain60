@@ -6,61 +6,50 @@
 <link href="fractals.css" rel="stylesheet">
   </head>
 
-  <h1> Sierpinski Triangle </h1>
+  <h2> Sierpinski Triangle </h1>
+  
   <p> This is the basic sierpinski triangle.
-<code> sierpinski(donatello, 4, 200)</code>
-<image></image>
+<code> sierpinski(bro, 4, 200)</code>
   </p>
+  
+  <img src="sierpinski-basic.png" width="50%">
 
-  <h1> Koch Curve </h2>
+  <p>
+    This is the basic sierpinski triangle but the width of the pen is thicker. The perimeter of the triangle and all horizontal lines are blue while the diagonal lines inside the sieprinski triangle are red.
+  </p>
+  <code> sierpinskinew(jakarta, 4, 200) </code>
+
+  <img src="sierpinskinew.png" width="50%">
+  
+
+  <h2> Koch Curve </h2>
+<p> This is the basic Koch Curve. </p>
+  <code> koch_curve(yeah, 5, 20) </code>
+
+<img src="koch-basic.png" width="50%">
+
+  <p> This is the basic Koch Curve repeated 3 times to create a snowflake pattern with a thicker pen and 3 different colors.</p>
+<code> draw_koch_curve() </code>
+
+  <img src="kochnew.png" width="50%">
+  
 
 
+  <h2> Fractal Tree </h1>
 
-  <h1> Fractal Tree </h1>
+  <P> This is the basic Fractal Tree.</P>
+
+  <code> tree(percy, 4, 50, 20) </code>
+
+  <img src="tree-basic.png" width="50%">
+
+  <p> This is a fractal tree with wider angles and line sizes that are 75% the size of the original size with different colors. </p>
 
 
+  <code> draw_fractal_tree() </code>
 
-  import turtle
-window = turtle.Screen()
-window.setup(600, 600)
+  <img src="treenew.png" width="50%">
 
-def triangle(t, size):
-    t.width(5)
-    t.lt(60)
-    t.fd(size)
-    t.rt(120)
-    t.fd(size)
-    t.rt(120)
-    t.fd(size)
-    t.rt(180)
-    
+  </html>
 
-def sierpinski(t, depth, size, scale_factor=1):
-    if depth == 1:
-        triangle(t, size)
-    else:
-        t.pencolor("red")
-        sierpinski(t, depth-1, size/2)
-        t.fd(size/2)
-        sierpinski(t, depth-1, size/2)
-        t.pencolor("blue")
-        t.bk(size/2)
-        t.lt(60)
-        t.fd(size/2)
-        t.rt(60)
-        sierpinski(t, depth-1, size/2)
-        t.rt(120)
-        t.fd(size/2)
-        t.lt(120)
-        sierpinski(t, depth-1, size)
-        
-        
 
-michelangelo = turtle.Turtle()
-michelangelo.pu()
-michelangelo.speed(0)
-michelangelo.goto(-295, 0)
-michelangelo.pd()
-sierpinski(michelangelo, 5, 300)
-
-window.exitonclick()
